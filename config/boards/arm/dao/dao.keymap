@@ -23,8 +23,8 @@
                 default_layer {
 // -----------------------------------------------------------------------------------------
 // |  GUI |   ~  |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  |  [   | GUI/] |
-//        |  LALT |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |CTRL/'|
-//        |  CTRL |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | RALT |
+//        |  LALT |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |RALT/'|
+//        |  CTRL |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | CTRL |
 //                           | RSE | SPC | LWR |   | LWR | SPC | RSE |
                         bindings = <
    &kp LWIN &kp GRAVE &kp Q &kp W &kp E &kp R &kp T &kp Y         &kp U  &kp I     &kp O   &kp P    &kp LBKT &mt RWIN RBKT
@@ -37,7 +37,7 @@
 // -----------------------------------------------------------------------------------------
 // |     |  _  |  F1 |  F2 |  F3 |  F4 |  F5 |   |  F6 |  F7 |  F8 |  F9 | F10 | F11 | F12 |
 //       |  +  |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  |  -  |
-//       |  =  |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  |     |
+//       |  =  |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | CTRL|
 //                   | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &trans &kp UNDER      	&kp F1   &kp F2 &kp F3   &kp F4   &kp F5           &kp F6    &kp F7   &kp F8   &kp F9   &kp F10  &kp F11 &mt RGUI F12
@@ -50,8 +50,8 @@
                 raise_layer {
 // -----------------------------------------------------------------------------------------
 // |     | CLCK| SCLK| PGUP| PRSC| HOME| VOLU|   |  /  |  7  |  8  |  9  |  -  | NMLK|     |
-//       | APP | INS | LEFT|  UP | RGHT| MUT |   |  *  |  4  |  5  |  6  |  +  |  =  |
-//       |     | PAUS| PGDN| DOWN| END | VOLD|   |  0  |  1  |  2  |  3  |  .  |     |
+//       |     | INS | LEFT|  UP | RGHT| MUT |   |  *  |  4  |  5  |  6  |  +  |  =  |
+//       | APP | PAUS| PGDN| DOWN| END | VOLD|   |  0  |  1  |  2  |  3  |  .  | CTRL|
 //                          |     |     | ADJ |   | ADJ |     |     |
                         bindings = <
    &trans 	&kp CAPS  		&kp SLCK   		&kp PG_UP 	&kp PSCRN 	&kp HOME 	&kp C_VOL_UP        &kp KP_SLASH 		&kp KP_N7 	&kp KP_N8 	&kp KP_N9 &kp KP_MINUS &kp KP_NUM 		&trans
