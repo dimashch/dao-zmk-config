@@ -28,7 +28,7 @@
 //                           | RSE | SPC | LWR |   | LWR | SPC | RSE |
                         bindings = <
    &mt ESC LWIN &kp GRAVE &kp Q &kp W &kp E &kp R &kp T &kp Y         &kp U  &kp I     &kp O   &kp P    &kp LBKT &mt RWIN RBKT
-        &mt LALT &kp A &kp S &kp D &kp F &kp G &kp H         &kp J  &kp K     &kp L   &kp SEMI &mt RALT SQT
+        &kp LALT &kp A &kp S &kp D &kp F &kp G &kp H         &kp J  &kp K     &kp L   &kp SEMI &mt RALT SQT
             &kp LCTRL  &kp Z &kp X &kp C &kp V &kp B &kp N         &kp M  &kp COMMA &kp DOT &kp FSLH &mt RCTRL BSLH
                      &lt RSE BSPC &mt LSHFT SPACE &lt LWR TAB   &lt LWR RET &mt RSHFT SPACE &lt RSE DEL
                         >;
