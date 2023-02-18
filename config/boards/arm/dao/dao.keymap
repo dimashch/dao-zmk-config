@@ -33,7 +33,7 @@
                      &lt RSE BSPC &mt LSHFT SPACE &lt LWR TAB   &lt LWR RET &mt RSHFT SPACE &lt RSE DEL
                         >;
                 };
-                lower_layer {
+                raise_layer {
 // -----------------------------------------------------------------------------------------
 // |     |  _  |  F1 |  F2 |  F3 |  F4 |  F5 |   |  F6 |  F7 |  F8 |  F9 | F10 | F11 | F12 |
 //       |  +  |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  |  -  |
@@ -47,7 +47,7 @@
                         >;
                 };
 
-                raise_layer {
+                lower_layer {
 // -----------------------------------------------------------------------------------------
 // |     | CLCK| SCLK| PGUP| PRSC| HOME| VOLU|   |  /  |  7  |  8  |  9  |  -  | NMLK|     |
 //       |     | INS | LEFT|  UP | RGHT| MUT |   |  *  |  4  |  5  |  6  |  +  |  =  |
