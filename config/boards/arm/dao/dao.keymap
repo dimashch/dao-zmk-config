@@ -55,7 +55,7 @@
 //                          |     |     | ADJ |   | ADJ |     |     |
                         bindings = <
    &trans 	&kp CAPS  		&kp SLCK   		&kp PG_UP 	&kp PSCRN 	&kp HOME 	&kp C_VOL_UP        &kp KP_SLASH 		&kp KP_N7 	&kp KP_N8 	&kp KP_N9 &kp KP_MINUS &kp KP_NUM 		&trans
-			ZMK_UNICODE_SINGLE(euro_sign, N2, N0, A, C)	&kp INS 		&kp LEFT    &kp UP 		&kp RIGHT 	&kp C_MUTE          &kp KP_MULTIPLY   	&kp KP_N4 	&kp KP_N5   &kp KP_N6 &kp KP_PLUS  &kp EQUAL
+			&kp ZMK_UNICODE_SINGLE(euro_sign, N2, N0, A, C)	&kp INS 		&kp LEFT    &kp UP 		&kp RIGHT 	&kp C_MUTE          &kp KP_MULTIPLY   	&kp KP_N4 	&kp KP_N5   &kp KP_N6 &kp KP_PLUS  &kp EQUAL
             &mt LCTRL K_APP	&kp PAUSE_BREAK &kp PG_DN 	&kp DOWN 	&kp END 	&kp C_VOL_DN        &kp KP_N0 			&kp KP_N1  	&kp KP_N2  	&kp KP_N3 &kp KP_DOT   &kp RCTRL
 																    &trans &kp DEL &lt ADJ ESC     &lt ADJ RET &trans &trans
                         >;
