@@ -13,6 +13,8 @@
 #define RSE 2
 #define ADJ 3
 
+ZMK_UNICODE_SINGLE(euro_sign, N2, N0, A, C)  // €
+
 &lt { quick_tap_ms = <200>; };
 &mt { quick_tap_ms = <200>; };
 
@@ -48,6 +50,7 @@
                 };
 
                 raise_layer {
+				
 // -----------------------------------------------------------------------------------------
 // |     | CLCK| SCLK| PGUP| PRSC| HOME| VOLU|   |  /  |  7  |  8  |  9  |  -  | NMLK|     |
 //       |     | INS | LEFT|  UP | RGHT| MUT |   |  *  |  4  |  5  |  6  |  +  |  =  |
