@@ -15,6 +15,7 @@
 
 &lt { quick_tap_ms = <200>; };
 &mt { quick_tap_ms = <200>; };
+ZMK_UNICODE_SINGLE(euro_sign, N2, N0, A, C);
 
 / {
         keymap {
