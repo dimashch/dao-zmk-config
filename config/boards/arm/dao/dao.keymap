@@ -16,7 +16,7 @@
 &lt { quick_tap_ms = <200>; };
 &mt { quick_tap_ms = <200>; };
 
-{
+/ {
         keymap {
                 compatible = "zmk,keymap";
 
@@ -48,7 +48,6 @@
                 };
 
                 raise_layer {
-				
 // -----------------------------------------------------------------------------------------
 // |     | CLCK| SCLK| PGUP| PRSC| HOME| VOLU|   |  /  |  7  |  8  |  9  |  -  | NMLK|     |
 //       |     | INS | LEFT|  UP | RGHT| MUT |   |  *  |  4  |  5  |  6  |  +  |  =  |
@@ -58,7 +57,7 @@
    &trans 	&kp CAPS  		&kp SLCK   		&kp PG_UP 	&kp PSCRN 	&kp HOME 	&kp C_VOL_UP        &kp KP_SLASH 		&kp KP_N7 	&kp KP_N8 	&kp KP_N9 &kp KP_MINUS &kp KP_NUM 		&trans
 			&trans  		&kp INS 		&kp LEFT    &kp UP 		&kp RIGHT 	&kp C_MUTE          &kp KP_MULTIPLY   	&kp KP_N4 	&kp KP_N5   &kp KP_N6 &kp KP_PLUS  &kp EQUAL
             &mt LCTRL K_APP	&kp PAUSE_BREAK &kp PG_DN 	&kp DOWN 	&kp END 	&kp C_VOL_DN        &kp KP_N0 			&kp KP_N1  	&kp KP_N2  	&kp KP_N3 &kp KP_DOT   &kp RCTRL
-																    &trans &kp DEL &lt ADJ ESC     &lt ADJ RET &trans &trans
+																   &trans &kp DEL &lt ADJ ESC     &lt ADJ RET &trans &trans
                         >;
                 };
                 adjust_layer {
